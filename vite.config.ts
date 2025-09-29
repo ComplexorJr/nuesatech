@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [react({
     jsxRuntime: 'automatic'
   })],
-  base: basePath, // ✅ Correct base handling
+  base: "/", // ✅ Correct base handling
 
   resolve: {
     alias: {
